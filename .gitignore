@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Never publish personal identity references or generated portraits.
+skills/professional-headshot-suite/assets/person-reference-images/*
+!skills/professional-headshot-suite/assets/person-reference-images/.gitkeep
+output/
+outputs/
+headshot-suite-*/
+*.tmp
